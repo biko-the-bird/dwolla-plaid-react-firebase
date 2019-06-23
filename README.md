@@ -1,7 +1,6 @@
 # dwolla-plaid-react-firebase
 
-It's right here.  The phone auth starter for react you've been looking for. This project includes routing as well. 
-Everything else is left up to the developer. 
+It's right here.  The phone auth starter for react you've been looking for. This project includes routing as well. It is also set up with plaid+dwolla
 
 ## Setup
 
