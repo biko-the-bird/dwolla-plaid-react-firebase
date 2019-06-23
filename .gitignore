@@ -1,0 +1,22 @@
+node_modules
+
+//ignore firebase config
+/src/firebase/config.js
+
+//ignore mac store
+.DS_Store
+
+//ignore testUp script
+testUp.sh
+
+//ignore build
+/build
+
+//ignore firebase 
+.firebaserc
+.firebase.json
+
+//ignore cloud function node node_modules and kets
+/functions/node_modules
+/functions/keys.js
+/functions/serviceAccountKey.json
