@@ -42,7 +42,13 @@ const PLAID_PUBLIC_KEY = "your plaid public key";
 const PLAID_ENV = "sandbox";
 const DATABASE_URL = "plaid database url";
 
-export {DWOLLA_APP_KEY, DWOLLA_APP_SECRET, PLAID_CLIENT_ID, PLAID_ENV, PLAID_PUBLIC_KEY, PLAID_SECRET, DATABASE_URL};
+exports.DWOLLA_APP_KEY = DWOLLA_APP_KEY;
+exports.DWOLLA_APP_SECRET = DWOLLA_APP_SECRET;
+exports.PLAID_CLIENT_ID = PLAID_CLIENT_ID;
+exports.PLAID_SECRET = PLAID_SECRET;
+exports.PLAID_PUBLIC_KEY = PLAID_PUBLIC_KEY;
+exports.PLAID_ENV = PLAID_ENV;
+exports.DATABASE_URL = DATABASE_URL;
 ```
 
 Next up add the serviceAccountKey.json file like this:
