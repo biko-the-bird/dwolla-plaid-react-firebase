@@ -33,7 +33,7 @@ function Header(props) {
         <div className="flex flex-row">
           <img src="/logo.png" alt="Work2Day Logo" className="logo" />
           <NavLink to="/" className="header-title">
-            Trevi
+            Starter
           </NavLink>
 
           {user &&
